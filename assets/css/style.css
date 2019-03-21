@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}    
+    
+#TOP{
+    background-image: url("../images/wood1.jpg");
+    padding: 40px;
+    color: rgb(71, 70, 70);
+    font-size: 50px;
+    font-family:'Permanent Marker', cursive;
+}
+#profilepic{
+    float: right;
+    background-image: url("../images/fullback.jpg"); 
+    margin-top: 40px;
+    padding: 40px;
+    margin-bottom: 50px;
+    border: 5px solid;
+    right: 10px;
+}
+#paragraph{
+    color: rgba(5, 3, 0, 0.849);
+    font-size: 28px;
+    font-family: 'Caveat', cursive;
+    float: left;
+    width: 70%;
+    
+}
+#Project{
+    border: 5px solid;
+    padding: 20px;
+    margin: 5px;
+    background-image: url("../images/fullback.jpg"); 
+}
+
+.col-sm{
+    margin: 5px;
+    border: 5px solid;
+    background-image: url("../images/fullback.jpg"); 
+    display: inline-block;
+}
+#footer {
+    padding: 8px;
+    background-image: url("../images/back-prof.jpg");
+    text-align: center;
+    color: rgb(214, 212, 212);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+a{
+    color: gray;
+    cursor: pointer;
+}
+a:hover{
+    color: azure
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    margin-bottom: 20px;
+}
+
+#Home{
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Sigmar One', cursive;
+    border-style: outset;
+    background-image: url("../images/fullback.jpg");
+    border-radius: 40%;
+    text-align: center;
+    color: rgb(71, 70, 70);
+}
+#Home:hover {
+    background-image: url("../images/wood.jpg");
+    }
+#Contact{
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Sigmar One', cursive;
+    border-style: outset;
+    background-image: url("../images/fullback.jpg");
+    border-radius: 40%;
+    text-align: center;
+}
+#Contact:hover {
+    background-image: url("../images/wood.jpg");
+}
+#Portfolio{
+    font-size: 25px;
+    font-family:'Sigmar One', cursive;
+    border-style: outset;
+    display: inline-block;
+    background-image: url("../images/fullback.jpg");
+    border-radius: 40%;
+    text-align: center;
+}
+#Portfolio:hover {
+    background-image: url("../images/wood.jpg");
+}
+#Github{
+    font-size: 25px;
+    font-family:'Sigmar One', cursive;
+    border-style: outset;
+    display: inline-block;
+    background-image: url("../images/fullback.jpg");
+    border-radius: 40%;
+    right: 10%;
+    text-align: center;
+}
+#Github:hover {
+    background-image: url("../images/wood.jpg");
+}
+#Resume{
+    font-size: 25px;
+    font-family:'Sigmar One', cursive;
+    border-style: outset;
+    display: inline-block;
+    background-image: url("../images/fullback.jpg");
+    border-radius: 40%;
+    right: 10%;
+    text-align: center;
+}
+#Resume:hover{
+    background-image: url("../images/wood.jpg");
+}
+#Linkedln{
+    font-size: 25px;
+    font-family:'Sigmar One', cursive;
+    border-style: outset;
+    display: inline-block;
+    background-image: url("../images/fullback.jpg");
+    border-radius: 40%;
+    right: 10%;
+    text-align: center;
+}
+#Linkedln:hover {
+    background-image: url("../images/wood.jpg");
+}
+#button1{
+    background-image: url("../images/textback.jpg");
+    color:black;
+    border-color: #0066A2;
+    font: bold 40px;
+    border: 2px solid rgb(71, 70, 70); 
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive; 
+}
+#button1:hover {
+    background-image: url("../images/wood.jpg");
+    color:white;
+}
+#stars{
+    text-align: center;
+}
+.checked {
+    color: orange;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    border: 3px solid rgb(71, 70, 70);
+    background-image: url("../images/fullback.jpg");
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+  
+}
+  
+input[type=Send] {
+    background-color: yellow;
+    color: black;
+    padding: 12px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    border: 3px solid rgb(71, 70, 70);
+    background-image: url("../images/fullback.jpg");
+}
+.container {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;    
+}
+.bravo {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 10px;
+}
+@media only screen and (max-width: 992px) {
+    #Portfolio , #Home , #Contact , #Github{
+    width: 100%;
+    }
+    #button1 , #button2 , #button4 {
+    width: 100%;
+    }
+    #ht , #cs , #js {
+    width: 100%;
+    }
+}
+                  
