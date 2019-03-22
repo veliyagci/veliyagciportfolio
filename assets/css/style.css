@@ -24,6 +24,7 @@
     font-family: 'Caveat', cursive;
     float: left;
     width: 70%;
+    margin-top: 40px;
 }
 #Project{
     border: 5px solid;
@@ -216,6 +217,7 @@ input[type=Send] {
     width: 100%;
     margin: 10px;
     margin-bottom: 30px;
+    font-size: 40px;
     }
     .bravo{
     width: 100%;
