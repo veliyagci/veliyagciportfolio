@@ -24,7 +24,6 @@
     font-family: 'Caveat', cursive;
     float: left;
     width: 70%;
-    
 }
 #Project{
     border: 5px solid;
@@ -195,6 +194,7 @@ input[type=Send] {
     width: 50%;
     margin-top: 6px;
     padding: 10px;
+    margin-bottom: 50px;
 }
 @media only screen and (max-width: 992px) {
     #Portfolio , #Home , #Contact , #Github , #Resume , #Linkedln{
