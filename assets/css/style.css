@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-}    
+} 
     
 #TOP{
     background-image: url("../images/wood1.jpg");
@@ -211,13 +211,15 @@ input[type=Send] {
     width: 100%;
     }
     #profilepic{
-    width: 100%;
+    display:table-cell; 
+    vertical-align:middle;
+    width: 100%
     }
     #paragraph{
     width: 100%;
     margin: 10px;
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 60px;
     }
     .bravo{
     width: 100%;
