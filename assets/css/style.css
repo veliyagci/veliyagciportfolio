@@ -209,6 +209,19 @@ input[type=Send] {
     #ht , #cs , #js {
     width: 100%;
     }
+    #profilepic{
+    width: 100%;
+    }
+    #paragraph{
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 30px;
+    }
+    .bravo{
+    width: 100%;
+    margin: 20px; 
+    margin-bottom: 50px;
+    }
 }
 
                   
