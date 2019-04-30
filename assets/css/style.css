@@ -3,28 +3,31 @@
 } 
     
 #TOP{
-    background-image: url("../images/wood1.jpg");
+    background-image: url("../images/fullback.jpg");
     padding: 40px;
     color: rgb(71, 70, 70);
     font-size: 50px;
-    font-family:'Permanent Marker', cursive;
+    font-family: 'Days One', sans-serif;
 }
 #profilepic{
-    float: right;
+    float: left;
     background-image: url("../images/fullback.jpg"); 
     margin-top: 40px;
     padding: 40px;
     margin-bottom: 50px;
     border: 5px solid;
-    right: 10px;
+    border-radius: 10% 30% 50% 70%;
+    margin-left: 20px;
 }
 #paragraph{
     color: rgba(5, 3, 0, 0.849);
-    font-size: 28px;
-    font-family: 'Caveat', cursive;
-    float: left;
+    font-size: 25px;
+    font-family: 'News Cycle', sans-serif;
+    float: right;
     width: 70%;
     margin-top: 40px;
+    right: 5px;
+    margin-bottom: 40px;
 }
 #Project{
     border: 5px solid;
@@ -65,14 +68,17 @@ header{
     font-family: 'Caveat', cursive;
     margin-bottom: 20px;
 }
+#navbar{
+    float: right;
+}
 
 #Home{
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Sigmar One', cursive;
     border-style: outset;
-    background-image: url("../images/fullback.jpg");
-    border-radius: 40%;
+    background-image: url("../images/white.png");
+    border-radius: 20%;
     text-align: center;
     color: rgb(71, 70, 70);
 }
@@ -81,63 +87,65 @@ header{
     }
 #Contact{
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Sigmar One', cursive;
     border-style: outset;
-    background-image: url("../images/fullback.jpg");
-    border-radius: 40%;
+    background-image: url("../images/white.png");
+    border-radius: 20%;
     text-align: center;
+    color: rgb(71, 70, 70);
 }
 #Contact:hover {
     background-image: url("../images/wood.jpg");
 }
 #Portfolio{
-    font-size: 25px;
-    font-family:'Sigmar One', cursive;
-    border-style: outset;
     display: inline-block;
-    background-image: url("../images/fullback.jpg");
-    border-radius: 40%;
+    font-size: 20px;
+    font-family: 'Sigmar One', cursive;
+    border-style: outset;
+    background-image: url("../images/white.png");
+    border-radius: 20%;
     text-align: center;
+    color: rgb(71, 70, 70);
 }
 #Portfolio:hover {
     background-image: url("../images/wood.jpg");
 }
 #Github{
-    font-size: 25px;
-    font-family:'Sigmar One', cursive;
-    border-style: outset;
     display: inline-block;
-    background-image: url("../images/fullback.jpg");
-    border-radius: 40%;
-    right: 10%;
+    font-size: 20px;
+    font-family: 'Sigmar One', cursive;
+    border-style: outset;
+    background-image: url("../images/white.png");
+    border-radius: 20%;
     text-align: center;
+    color: rgb(71, 70, 70);
 }
 #Github:hover {
     background-image: url("../images/wood.jpg");
 }
 #Resume{
-    font-size: 25px;
-    font-family:'Sigmar One', cursive;
-    border-style: outset;
     display: inline-block;
-    background-image: url("../images/fullback.jpg");
-    border-radius: 40%;
-    right: 10%;
+    font-size: 20px;
+    font-family: 'Sigmar One', cursive;
+    border-style: outset;
+    background-image: url("../images/white.png");
+    border-radius: 20%;
     text-align: center;
+    color: rgb(71, 70, 70);
 }
 #Resume:hover{
     background-image: url("../images/wood.jpg");
 }
 #Linkedln{
-    font-size: 25px;
-    font-family:'Sigmar One', cursive;
-    border-style: outset;
     display: inline-block;
-    background-image: url("../images/fullback.jpg");
-    border-radius: 40%;
-    right: 10%;
+    font-size: 20px;
+    font-family: 'Sigmar One', cursive;
+    border-style: outset;
+    background-image: url("../images/white.png");
+    border-radius: 20%;
     text-align: center;
+    color: rgb(71, 70, 70);
 }
 #Linkedln:hover {
     background-image: url("../images/wood.jpg");
@@ -213,7 +221,7 @@ input[type=Send] {
     #profilepic{
     display:table-cell; 
     vertical-align:middle;
-    width: 100%
+    width: 100%;
     }
     #paragraph{
     width: 100%;
