@@ -44,16 +44,17 @@
 }
 #footer {
     padding: 8px;
-    background-image: url("../images/back-prof.jpg");
+    background-image: url("../images/yellow.jpeg");
     text-align: center;
-    color: rgb(214, 212, 212);
-    font-size: 15px;
+    color: black;
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: fixed;
     width: 100%;
     bottom: 0;
     left:0;
     right:0;
+    opacity: 0.8;
 }
 a{
     color: gray;
@@ -83,7 +84,7 @@ header{
     color: rgb(71, 70, 70);
 }
 #Home:hover {
-    background-image: url("../images/wood.jpg");
+    background-image: url("../images/yellow.jpeg");
     }
 #Contact{
     display: inline-block;
@@ -96,7 +97,7 @@ header{
     color: rgb(71, 70, 70);
 }
 #Contact:hover {
-    background-image: url("../images/wood.jpg");
+    background-image: url("../images/yellow.jpeg");
 }
 #Portfolio{
     display: inline-block;
@@ -109,7 +110,7 @@ header{
     color: rgb(71, 70, 70);
 }
 #Portfolio:hover {
-    background-image: url("../images/wood.jpg");
+    background-image: url("../images/yellow.jpeg");
 }
 #Github{
     display: inline-block;
@@ -122,7 +123,7 @@ header{
     color: rgb(71, 70, 70);
 }
 #Github:hover {
-    background-image: url("../images/wood.jpg");
+    background-image: url("../images/yellow.jpeg");
 }
 #Resume{
     display: inline-block;
@@ -135,7 +136,7 @@ header{
     color: rgb(71, 70, 70);
 }
 #Resume:hover{
-    background-image: url("../images/wood.jpg");
+    background-image: url("../images/yellow.jpeg");
 }
 #Linkedln{
     display: inline-block;
@@ -148,7 +149,7 @@ header{
     color: rgb(71, 70, 70);
 }
 #Linkedln:hover {
-    background-image: url("../images/wood.jpg");
+    background-image: url("../images/yellow.jpeg");
 }
 #button1{
     background-image: url("../images/textback.jpg");
